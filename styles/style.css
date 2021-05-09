@@ -1,0 +1,15 @@
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: red;
+}
+
+.presentation {
+    color: brown;
+}
+
+.flottant {
+    float: left;
+}
