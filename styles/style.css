@@ -13,3 +13,38 @@ h1 {
 .flottant {
     float: left;
 }
+
+.grid-container {
+    display: inline-grid;
+    gap: 50px 100px;
+}
+
+.landing-page {
+    transition: 0.5s;
+    position: relative;
+}
+
+.container{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: left;
+}
+
+.section-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+.section-intro {
+    position: relative;
+    width: 100%;
+    top: 50px;
+}
