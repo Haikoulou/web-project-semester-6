@@ -1,0 +1,13 @@
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
