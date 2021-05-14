@@ -4,18 +4,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TOYRIONTLEDOSSEUR</title>
         <link href="styles/style.css" rel="stylesheet" type="text/css">
+        <link href="styles/presentation.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
         <head>
     <body>
         <section class="header">
             <nav>
-                <a href="#"><img src="images/logo.jpg" alt=""></a>
+                <a target="_blank" href="https://esiea.fr"><img src="images/logo.jpg" alt=""></a>
                 <div class="nav-links">
                     <i class="fa fa-times" onclick="closeMenu()"></i>
                     <ul>
-                        <li><a href="#">Accueil</a></li>
-                        <li><a href="#">Nos services</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">WHO ARE WE?</a></li>
+                        <li><a href="#">OUR CREATIONS</a></li>
+                        <li><a href="#">OUR TEAM</a></li>
+                        <li><a href="#">CONTACT</a></li>
                     </ul>
                 </div>
                 <i class="fa fa-bars" onclick="openMenu()"></i>
@@ -24,6 +27,84 @@
                 <h1>The best company for your projects</h1>
                 <p>We have the best teams to improve your work for your customers.</p>
             </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+
+        <section class="presentation">
+        	<h1>Who are we?</h1>
+        	<p>Neque porro quisquam est qui dolorem</p>
+        	<div class="row">
+        		<div class="presentation-col">
+        			<h3>Lorem ipsum</h3>
+        			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean risus tellus, tincidunt ac massa a, dapibus pretium sem. Fusce lorem risus, molestie porttitor lobortis ac, faucibus eget erat. Proin sed tincidunt ex. Aliquam id pharetra lacus. Praesent consectetur porta purus, id tincidunt leo. Duis dignissim nec est vel dictum. Curabitur sit amet pharetra lacus. Aliquam non dolor dolor. Morbi quis lobortis risus. Nam fermentum hendrerit vehicula. </p>
+        		</div>
+        		<div class="presentation-col">
+        			<h3>Lorem ipsum</h3>
+        			<p>Ut porta purus non eros iaculis feugiat. Quisque tristique sollicitudin orci ac rhoncus. Vivamus maximus at nulla vel tincidunt. Nunc elementum rutrum neque. Mauris sit amet leo non ante efficitur eleifend. Nulla facilisis sodales orci a ultricies. Curabitur feugiat elit eu sagittis tristique. Aenean tincidunt aliquam dolor nec mollis. Morbi placerat cursus lectus et dictum. Integer orci mi, sagittis in tortor id, tempus viverra nisi. Suspendisse convallis tortor ac mauris euismod imperdiet. </p>
+        		</div>
+        		<div class="presentation-col">
+        			<h3>Lorem ipsum</h3>
+        			<p>Integer libero magna, rhoncus eu lobortis vitae, egestas in felis. Aliquam erat volutpat. Duis volutpat, eros sit amet euismod blandit, justo elit scelerisque ex, eget porta est sapien id massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec accumsan lorem ut congue bibendum. Nullam id quam id neque scelerisque placerat et id massa. Nullam lacinia dui in est vestibulum, interdum tincidunt ipsum molestie. Mauris dapibus ex ultricies, tristique mi non, bibendum dolor. Ut at mi et dui rhoncus interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer nec elit pretium, tristique erat ac, scelerisque lorem. Cras hendrerit lorem pulvinar nibh maximus dictum. Nam at enim erat. Praesent sit amet orci vitae ante sodales euismod. Integer fringilla, ipsum eu convallis fringilla, ante dolor pulvinar dolor, at aliquam ipsum sapien at erat. Suspendisse at quam vel erat semper ultrices ut vitae erat. </p>
+        		</div>
+        	</div>
+        </section>
+
+        <section class="creations">
+        	<h1>What we do</h1>
+        	<p>Take a look on our beautiful creations!</p>
+        	<div class="row">
+        		<div class="creations-col">
+        			<img src="images/arch1.jpg">
+        			<div class="layer">
+        				<h3>A 5 stars hotel</h3>
+        			</div>
+        		</div>
+        		<div class="creations-col">
+        			<img src="images/arch2.jpg">
+        			<div class="layer">
+        				<h3>A random house</h3>
+        			</div>
+        		</div>
+        		<div class="creations-col">
+        			<img src="images/arch3.jpg">
+        			<div class="layer">
+        				<h3>Another random house</h3>
+        			</div>
+        		</div>
+        	</div>
+        </section>
+        <section class="teammembers">
+        	<h1>Our team</h1>
+        	<p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+        	<div class="row">
+        		<div class="teammembers-col">
+        			<img src="images/elouan.jpg">
+        				<h3>Elouan</h3>
+        				<p>Passioné par l'informatique, blablbalblblablab</p>
+        		</div>
+        		<div class="teammembers-col">
+        			<img src="images/machin.jpg">
+        				<h3>Machin</h3>
+        				<p>I don't know who he is, but he looks ok</p>
+        		</div>
+        		<div class="teammembers-col">
+        			<img src="images/doge.jpg">
+        				<h3>Dogo the dog</h3>
+        				<p>Everybody likes him</p>
+        		</div>
+        	</div>        	
+        </section>
+
+        <section class="pop">
+        	<h1>We are hiring! We offer jobs starting at 200$/hour!</h1>
+        	<a href="#" class="big-btn">CONTACT US</a>
+        </section>
+
+        <section class="footer">
+        	<h4>Some informations</h4>
+        	<p>Lorem ipsum lorem ipsum lorem ipsum blablablabla...</p>
+        	<p>Made in one afternoon by Elouan Toy <3</p>
         </section>
 
         <script>
