@@ -16,10 +16,10 @@
 						<i class="fa fa-times" onclick="closeMenu()"></i>
 						<ul>
 							<li><a href="#">HOME</a></li>
-							<li><a href="#">WHO ARE WE?</a></li>
-							<li><a href="#">OUR CREATIONS</a></li>
-							<li><a href="#">OUR TEAM</a></li>
-							<li><a href="#">CONTACT</a></li>
+							<li><a href="#presentation">WHO ARE WE?</a></li>
+							<li><a href="#creations">OUR CREATIONS</a></li>
+							<li><a href="#team">OUR TEAM</a></li>
+							<li><a href="#contact">CONTACT</a></li>
 						</ul>
 					</div>
 					<i class="fa fa-bars" onclick="openMenu()"></i>
@@ -53,7 +53,7 @@
 				<a class="prev" onclick="prevSlide()">&#10094;</a>
 				<a class="next" onclick="nextSlide()">&#10095;</a>
 			</section>
-			<section class="header fade" style="background-image: url(images/meeting.jpg);">
+			<section class="header fade" style="background-image: url(images/client.jpg);">
 				<nav>
 					<a target="_blank" href="https://esiea.fr"><img src="images/logo.jpg" alt=""></a>
 					<div class="nav-links" id="menu">
@@ -77,7 +77,7 @@
 			</section>
 		</div>
 
-        <section class="presentation">
+        <section class="presentation" id="presentation">
         	<h1>Who are we?</h1>
         	<p>Neque porro quisquam est qui dolorem</p>
         	<div class="row">
@@ -96,7 +96,7 @@
         	</div>
         </section>
 
-        <section class="creations">
+        <section class="creations" id="creations">
         	<h1>What we do</h1>
         	<p>Take a look on our beautiful creations!</p>
         	<div class="row">
@@ -120,7 +120,7 @@
         		</div>
         	</div>
         </section>
-        <section class="teammembers">
+        <section class="teammembers" id="team">
         	<h1>Our team</h1>
         	<p>Lorem ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
         	<div class="row">
@@ -142,7 +142,7 @@
         	</div>        	
         </section>
 
-        <section class="pop">
+        <section class="pop" id="contact">
         	<h1>We are hiring! We offer jobs starting at 200$/hour!</h1>
         	<a href="#" class="big-btn">CONTACT US</a>
         </section>
@@ -158,15 +158,11 @@
 
             function openMenu(){
 				for(var i = 0; i < navBal.length; i++)
-                	//navBal[i].style.right = "0";
-					//navBal[i].class.visibility = "visible";
 					navBal[i].style.cssText = "right: 0; visibility: visible;";
             }
 
             function closeMenu() {
 				for(var i = 0; i < navBal.length; i++)
-                	//navBal[i].style.right = "-200px";
-					//navBal[i].class.visibility = "hidden";
 					navBal[i].style.cssText = "right: -200px; visibility: hidden;";
             }
         </script>
