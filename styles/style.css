@@ -7,11 +7,28 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: url(../images/house.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 nav {
     display: flex;
@@ -21,7 +38,7 @@ nav {
 }
 
 nav img {
-    width: 150px;
+    width: 130px;
 }
 
 .nav-links {
@@ -39,7 +56,7 @@ nav img {
 .nav-links ul li a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -145,11 +162,12 @@ nav .fa {
         text-align: left;
         z-index: 2;
         transition: 0.5s;
+        visibility: hidden;
     }
 
     nav .fa {
         display: block;
-        color: red;
+        color: rgb(0, 0, 0);
         margin: 10px;
         font-size: 22px;
         cursor: pointer;
