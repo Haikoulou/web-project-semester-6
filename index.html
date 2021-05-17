@@ -5,31 +5,77 @@
         <title>TOYRIONTLEDOSSEUR</title>
         <link href="styles/style.css" rel="stylesheet" type="text/css">
         <link href="styles/presentation.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <head>
     <body>
-        <section class="header">
-            <nav>
-                <a target="_blank" href="https://esiea.fr"><img src="images/logo.jpg" alt=""></a>
-                <div class="nav-links">
-                    <i class="fa fa-times" onclick="closeMenu()"></i>
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">WHO ARE WE?</a></li>
-                        <li><a href="#">OUR CREATIONS</a></li>
-                        <li><a href="#">OUR TEAM</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </div>
-                <i class="fa fa-bars" onclick="openMenu()"></i>
-            </nav>
-            <div class="text-box">
-                <h1>The best company for your projects</h1>
-                <p>We have the best teams to improve your work for your customers.</p>
-            </div>
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </section>
+		<div class="header-slideshow">
+			<section class="header fade" style="background-image: url(images/house.jpg);">
+				<nav>
+					<a target="_blank" href="https://esiea.fr"><img src="images/logo.jpg" alt=""></a>
+					<div class="nav-links" id="menu">
+						<i class="fa fa-times" onclick="closeMenu()"></i>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">WHO ARE WE?</a></li>
+							<li><a href="#">OUR CREATIONS</a></li>
+							<li><a href="#">OUR TEAM</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+					<i class="fa fa-bars" onclick="openMenu()"></i>
+				</nav>
+				<div class="text-box">
+					<h1>The best company for your projects</h1>
+					<p>We have the best teams to improve your work for your customers.</p>
+				</div>
+				<a class="prev" onclick="prevSlide()">&#10094;</a>
+				<a class="next" onclick="nextSlide()">&#10095;</a>
+			</section>
+			<section class="header fade" style="background-image: url(images/arch1.jpg);">
+				<nav>
+					<a target="_blank" href="https://esiea.fr"><img src="images/logo.jpg" alt=""></a>
+					<div class="nav-links" id="menu">
+						<i class="fa fa-times" onclick="closeMenu()"></i>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">WHO ARE WE?</a></li>
+							<li><a href="#">OUR CREATIONS</a></li>
+							<li><a href="#">OUR TEAM</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+					<i class="fa fa-bars" onclick="openMenu()"></i>
+				</nav>
+				<div class="text-box">
+					<h1>The leader in architecture design</h1>
+					<p>We have the best teams to improve your work for your customers.</p>
+				</div>
+				<a class="prev" onclick="prevSlide()">&#10094;</a>
+				<a class="next" onclick="nextSlide()">&#10095;</a>
+			</section>
+			<section class="header fade" style="background-image: url(images/meeting.jpg);">
+				<nav>
+					<a target="_blank" href="https://esiea.fr"><img src="images/logo.jpg" alt=""></a>
+					<div class="nav-links" id="menu">
+						<i class="fa fa-times" onclick="closeMenu()"></i>
+						<ul>
+							<li><a href="#">HOME</a></li>
+							<li><a href="#">WHO ARE WE?</a></li>
+							<li><a href="#">OUR CREATIONS</a></li>
+							<li><a href="#">OUR TEAM</a></li>
+							<li><a href="#">CONTACT</a></li>
+						</ul>
+					</div>
+					<i class="fa fa-bars" onclick="openMenu()"></i>
+				</nav>
+				<div class="text-box">
+					<h1>More than 1000 clients unsatisfied</h1>
+					<p>We have the best teams to improve your work for your customers.</p>
+				</div>
+				<a class="prev" onclick="prevSlide()">&#10094;</a>
+				<a class="next" onclick="nextSlide()">&#10095;</a>
+			</section>
+		</div>
 
         <section class="presentation">
         	<h1>Who are we?</h1>
@@ -45,7 +91,7 @@
         		</div>
         		<div class="presentation-col">
         			<h3>Lorem ipsum</h3>
-        			<p>Integer libero magna, rhoncus eu lobortis vitae, egestas in felis. Aliquam erat volutpat. Duis volutpat, eros sit amet euismod blandit, justo elit scelerisque ex, eget porta est sapien id massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec accumsan lorem ut congue bibendum. Nullam id quam id neque scelerisque placerat et id massa. Nullam lacinia dui in est vestibulum, interdum tincidunt ipsum molestie. Mauris dapibus ex ultricies, tristique mi non, bibendum dolor. Ut at mi et dui rhoncus interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer nec elit pretium, tristique erat ac, scelerisque lorem. Cras hendrerit lorem pulvinar nibh maximus dictum. Nam at enim erat. Praesent sit amet orci vitae ante sodales euismod. Integer fringilla, ipsum eu convallis fringilla, ante dolor pulvinar dolor, at aliquam ipsum sapien at erat. Suspendisse at quam vel erat semper ultrices ut vitae erat. </p>
+        			<p>Integer libero magna, rhoncus eu lobortis vitae, egestas in felis. Aliquam erat volutpat. Duis volutpat, eros sit amet euismod blandit, justo elit scelerisque ex, eget porta est sapien id massa. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec accumsan lorem ut congue bibendum. Nullam id quam id neque scelerisque placerat et id massa. Nullam lacinia dui in est vestibulum, interdum tincidunt ipsum molestie. Mauris dapibus ex ultricies, tristique mi non, bibendum dolor. Ut at mi et dui rhoncus interdum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer nec elit pretium, tristique erat ac, scelerisque lorem. Cras hendrerit lorem pulvinar nibh </p>
         		</div>
         	</div>
         </section>
@@ -104,19 +150,55 @@
         <section class="footer">
         	<h4>Some informations</h4>
         	<p>Lorem ipsum lorem ipsum lorem ipsum blablablabla...</p>
-        	<p>Made in one afternoon by Elouan Toy <3</p>
+        	<p>Made by Elouan Toy <3</p>
         </section>
 
         <script>
-            var navBal = document.getElementById("navLinks");
+            var navBal = document.getElementsByClassName("nav-links");
 
             function openMenu(){
-                navBal.style.right = "0";
+				for(var i = 0; i < navBal.length; i++)
+                	//navBal[i].style.right = "0";
+					//navBal[i].class.visibility = "visible";
+					navBal[i].style.cssText = "right: 0; visibility: visible;";
             }
 
             function closeMenu() {
-                navBal.style.right = "-200px";
+				for(var i = 0; i < navBal.length; i++)
+                	//navBal[i].style.right = "-200px";
+					//navBal[i].class.visibility = "hidden";
+					navBal[i].style.cssText = "right: -200px; visibility: hidden;";
             }
         </script>
+		<script>
+			var currentDispSlide = 0;
+			dispSlide(0);
+
+			function nextSlide(){
+				dispSlide(currentDispSlide+1);
+			}
+			function prevSlide(){
+				dispSlide(currentDispSlide-1);
+			}
+			function dispSlide(n){
+				var count;
+				var slides = document.getElementsByClassName("header");
+				if(n >= slides.length){
+					currentDispSlide = 0;
+				} else if (n >= 0){
+					currentDispSlide = n;
+				} else {
+					currentDispSlide = slides.length - 1;
+				}
+				for (i = 0; i < slides.length; i++) {
+					
+					  if(i == currentDispSlide){
+						slides[i].style.display = "block";
+					  } else {
+						slides[i].style.display = "none";
+					  }
+  				}
+			}
+		</script>
     </body>
 </html>

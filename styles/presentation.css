@@ -23,8 +23,8 @@ p{
 }
 .presentation-col {
     flex-basis: 31%;
-    background: #fff3f3;
-    border-radius: 10px;
+    background: #2fd3d359;
+    border-radius: 5px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ h3  {
     transition: 0.3s;
 }
 .layer:hover{
-    background: rgba(226,0,0,0.7);
+    background: rgba(0, 136, 226, 0.7);
 }
 .layer h3 {
     width: 100%;
@@ -106,13 +106,14 @@ h3  {
 }
 .teammembers-col img {
     width: 100%;
+    object-fit: contain;
     max-height: 400px; 
     border-radius: 10px;
 }
 .teammembers-col p {
     padding: 0;
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 }
 .teammembers-col h3{
     margin-top: 16px;
